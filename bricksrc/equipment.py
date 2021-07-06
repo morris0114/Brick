@@ -28,6 +28,19 @@ equipment_subclasses = {
                 "tags": [TAG.Equipment, TAG.Control, TAG.Center]
             },
             "Breaker_Panel": {"tags": [TAG.Breaker, TAG.Equipment]},
+            "Energy_Generation_Equipment": {
+                "tags": [TAG.Energy, TAG.Generation, TAG.Equipment],
+                "subclasses": {
+                    "Generator": {
+                        "tags": {TAG.Generator, TAG.Energy, TAG.Generation, TAG.Equipment},
+                        "subclasses": {
+                            "Emergency_Generator": {
+                                "tags": {TAG.Emergency, TAG.Generator, TAG.Energy, TAG.Generation, TAG.Equipment},
+                            },
+                        },
+                    },
+                },
+            },
         },
     },
     "Gas_Distribution": {"tags": [TAG.Gas, TAG.Distribution, TAG.Equipment]},
