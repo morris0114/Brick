@@ -305,6 +305,7 @@ https://brickschema.org/schema/Brick#Elevator_Shaft,The vertical space in which 
 https://brickschema.org/schema/Brick#Elevator_Space,The vertical space in whcih an elevator ascends and descends,
 https://brickschema.org/schema/Brick#Embedded_Surface_System_Panel,Radiant panel heating and cooling system where the energy heat source or sink is embedded in a radiant layer which is thermally insulated from the building structure.,https://www.rehva.eu/eshop/detail/no07-low-temperature-heating-and-high-temperature-cooling
 https://brickschema.org/schema/Brick#Emergency_Alarm,Alarms that indicate off-normal conditions associated with emergency systems,
+https://brickschema.org/schema/Brick#Emergency_Generator, "A device that converts a form of energy into electricity for emergency use.",
 https://brickschema.org/schema/Brick#Emergency_Generator_Alarm,An alarm that indicates off-normal conditions associated with an emergency generator,
 https://brickschema.org/schema/Brick#Emergency_Generator_Status,Indicates if an emergency generator is active,
 https://brickschema.org/schema/Brick#Emergency_Power_Off_System,A system that can power down a single piece of equipment or a single system from a single point,
@@ -319,6 +320,7 @@ https://brickschema.org/schema/Brick#Enable_Hot_Water_System_Outside_Air_Tempera
 https://brickschema.org/schema/Brick#Enable_Status,Indicates if a system or piece of functionality has been enabled,
 https://brickschema.org/schema/Brick#Enclosed_Office,A space for individuals to work with walls and a door,
 https://brickschema.org/schema/Brick#Energy,,
+https://brickschema.org/schema/Brick#Energy_Generation_Equipment, "A device that converts a form of energy into another form of energy for use.",
 https://brickschema.org/schema/Brick#Energy_Sensor,Measures energy consumption,
 https://brickschema.org/schema/Brick#Energy_Storage,Devices or equipment that store energy in its various forms,
 https://brickschema.org/schema/Brick#Energy_Usage_Sensor,Measures the total amount of energy used over some period of time,
@@ -407,6 +409,7 @@ https://brickschema.org/schema/Brick#Gas_Meter,A meter that measures the usage o
 https://brickschema.org/schema/Brick#Gas_Sensor,Measures gas concentration (other than CO2),
 https://brickschema.org/schema/Brick#Gasoline,Petroleum derived liquid used as a fuel source,
 https://brickschema.org/schema/Brick#Gatehouse,The standalone building used to manage the entrance to a campus or building grounds,
+https://brickschema.org/schema/Brick#Generator, "A device that converts a form of energy into electricity for use.",
 https://brickschema.org/schema/Brick#Generator_Room,"A room for electrical equipment, specifically electrical generators.",
 https://brickschema.org/schema/Brick#Grains,,
 https://brickschema.org/schema/Brick#HVAC_Equipment,See Heating_Ventilation_Air_Conditioning_System,
