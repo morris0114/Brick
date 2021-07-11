@@ -32,10 +32,21 @@ equipment_subclasses = {
                 "tags": [TAG.Energy, TAG.Generation, TAG.Equipment],
                 "subclasses": {
                     "Generator": {
-                        "tags": {TAG.Generator, TAG.Energy, TAG.Generation, TAG.Equipment},
+                        "tags": [
+                            TAG.Generator,
+                            TAG.Energy,
+                            TAG.Generation,
+                            TAG.Equipment,
+                        ],
                         "subclasses": {
                             "Emergency_Generator": {
-                                "tags": {TAG.Emergency, TAG.Generator, TAG.Energy, TAG.Generation, TAG.Equipment},
+                                "tags": [
+                                    TAG.Emergency,
+                                    TAG.Generator,
+                                    TAG.Energy,
+                                    TAG.Generation,
+                                    TAG.Equipment,
+                                ],
                             },
                         },
                     },
