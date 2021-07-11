@@ -1401,6 +1401,16 @@ sensor_definitions = {
                                 ],
                                 "substances": [[BRICK.measures, BRICK.Active_Power]],
                             },
+                            "Apparent_Power_Sensor": {
+                                "tags": [
+                                    TAG.Point,
+                                    TAG.Sensor,
+                                    TAG.Apparent,
+                                    TAG.Power,
+                                    TAG.Electrical,
+                                ],
+                                "substances": [[BRICK.measures, BRICK.Apparent_Power]],
+                            },
                             "Peak_Power_Demand_Sensor": {
                                 "tags": [
                                     TAG.Point,
